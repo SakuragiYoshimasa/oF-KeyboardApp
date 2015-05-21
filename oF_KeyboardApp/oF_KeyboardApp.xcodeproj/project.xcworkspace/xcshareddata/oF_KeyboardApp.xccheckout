@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B7828F35-D758-44B8-9037-1095A403B52E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>oF_KeyboardApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>57B6BFF342E1FFC5238D200752A2C8DFA5FAFD89</key>
+		<string>https://github.com/SakuragiYoshimasa/oF-KeyboardApp.git</string>
+		<key>90E2F969A762FB62C413A0C44D1F334E6EC3F531</key>
+		<string>git://github.com/danomatika/ofxMidi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>oF_KeyboardApp/oF_KeyboardApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>57B6BFF342E1FFC5238D200752A2C8DFA5FAFD89</key>
+		<string>../../..</string>
+		<key>90E2F969A762FB62C413A0C44D1F334E6EC3F531</key>
+		<string>../../../../of_v0.8.4_osx_release/addons/ofxMidi</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SakuragiYoshimasa/oF-KeyboardApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>57B6BFF342E1FFC5238D200752A2C8DFA5FAFD89</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>57B6BFF342E1FFC5238D200752A2C8DFA5FAFD89</string>
+			<key>IDESourceControlWCCName</key>
+			<string>oF-KeyboardApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90E2F969A762FB62C413A0C44D1F334E6EC3F531</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxMidi</string>
+		</dict>
+	</array>
+</dict>
+</plist>
