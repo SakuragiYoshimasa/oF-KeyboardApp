@@ -13,9 +13,9 @@
 #include "ofMain.h"
 
 #define DOWN_SPEED 10
-#define MAX_HEIGHT 300
+#define MAX_HEIGHT 600
 #define MIN_HEIGHT 50
-#define SPEED_RATE 10
+#define SPEED_RATE 5
 #define MIN_SPEED  5 //use this atatch minus
 #define MAX_SPEED 20
 
@@ -26,6 +26,7 @@ private:
     double speed;
     int note;
     //bool increasing;
+    ofColor color;
     
 public:
     noteBar(int note){
@@ -34,6 +35,7 @@ public:
         height = 0.0;
         speed = 0.0;
        // increasing = false;
+        color.setHsb(255.0 / 60.0 * (double)note , 255, 255);
     
     }
     
@@ -43,7 +45,7 @@ public:
         if(speed > MAX_SPEED){
             return;
         }
-        speed += (double)velocity;
+        speed += (double)velocity * SPEED_RATE;
     }
     
     void update(){
@@ -72,6 +74,7 @@ public:
     }
     
     double getHeight(){
+        ofSetColor(color);
         return this -> height;
     }
 };

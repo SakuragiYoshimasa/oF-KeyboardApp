@@ -47,7 +47,7 @@ void ofApp::update() {
 void ofApp::draw() {
     ofSetColor(0);
     
-    // draw the last recieved message contents to the screen
+/*    // draw the last recieved message contents to the screen
     text << "Received: " << ofxMidiMessage::getStatusString(midiMessage.status);
     ofDrawBitmapString(text.str(), 20, 20);
     text.str(""); // clear
@@ -83,10 +83,10 @@ void ofApp::draw() {
     
     text << "delta: " << midiMessage.deltatime;
     ofDrawBitmapString(text.str(), 20, 240);
-    text.str(""); // clear
+    text.str(""); // clear*/
     
     for(double i = 0; i <60; i++){
-        ofRect(i * ofGetWidth() / 60 ,0 , (double)ofGetWidth()/(double)60 , noteBars[(int)i].getHeight() );
+        ofRect(i * ofGetWidth() / 60 ,ofGetHeight() -  noteBars[(int)i].getHeight() , (double)ofGetWidth()/(double)60 , noteBars[(int)i].getHeight() );
     }
 }
 
